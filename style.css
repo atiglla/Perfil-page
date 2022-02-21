@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+.nav {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.nav-title {
+    padding: 0px 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+a {
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: aqua;
+    color: white;
+    box-shadow: 3px 3px black;
+    margin: 0px 10px;
+}
+main {
+    padding: 20px;
+    max-width: 400px;
+}
+
+.box1 {
+    border: 2px solid grey;
+    border-radius: 3px;
+
+}
+
+.box2, .box3, .box4 {
+    border-radius: 3px;
+    border: 2px solid grey;
+    margin: 15px 0px;
+}
+.headbox {
+    background-color:rgb(71, 71, 71);
+}
+
+.bodybox {
+    padding: 10px;
+    
+}
+h3 {
+    padding: 10px 20px;
+    color: white;
+}
+.icon {
+    width: 30px;
+    border-radius: 50%;
+    padding: 0px 10px 5px 0px;
+}
+
+.check {
+    width: 30px;
+    padding: 0px 0px 0px 50px;
+}
+
+.nocheck {
+    width: 30px;
+    padding: 0px 0px 0px 5px;
+}
+
+.map-marker, .gear-image{
+    width: 15px;
+    padding: 0px 10px ;
+}
+
+.user-circle {
+    border-radius: 50%;
+    width: 100px;
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+.card-head {
+    background-color: aquamarine;
+    height: 100px;
+}
+.card-body {
+    padding: 40px 20px;
+}
+
+
+
+li {
+    list-style-type: none;
+}
+
+.view-more a {
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.view-more {
+    border-top: 2px solid grey;
+    
+}
+
+
