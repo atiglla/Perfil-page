@@ -40,19 +40,22 @@ a {
 }
 main {
     padding: 20px;
-    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .box1 {
     border: 2px solid grey;
     border-radius: 3px;
+    margin: 20px;
 
 }
 
 .box2, .box3, .box4 {
     border-radius: 3px;
     border: 2px solid grey;
-    margin: 15px 0px;
+    margin: 20px;
 }
 .headbox {
     background-color:rgb(71, 71, 71);
